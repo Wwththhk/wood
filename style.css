@@ -1,0 +1,13 @@
+.wood {
+    border-color: red;
+}
+
+.wood-header {
+    box-shadow: inset 0 0 20px blue;
+}
+.wood-contents {
+    box-shadow: inset 0 0 20px lightgreen;
+}
+.wood-footer {
+    box-shadow: inset 0 0 20px plum;
+}
