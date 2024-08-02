@@ -20,7 +20,7 @@ h1 {
 
 .wood-header {
     background-image: url(images/header-bg.png);
-    padding: 100px 142px 0 142px;
+    padding: 100px 172px 0 157px;
 }
 
 .wood-header-contents {
@@ -30,7 +30,7 @@ h1 {
     border-top: solid 30px #ffa500;
     border-right: solid 30px #ffa500;
     border-left: solid 30px #ffa500;
-    width: 960px;
+    width: 930px;
     height: 439px;
 }
 
@@ -65,7 +65,23 @@ h1 {
 }
 
 .wood-contents {
-    background-color: red;
+    background-color: #ddd;
+    margin: 0;
+}
+
+.wood-contents-lists {
+    margin: 0;
+    text-align: center;
+    padding: 30px 100px 30px 70px;
+}
+
+.wood-contents-lists ol {
+    display: inline-block;
+}
+
+.wood-contents-lists img {
+    width: 300px;
+    height: auto;
 }
 .wood-footer {
     background-color: blue;    
