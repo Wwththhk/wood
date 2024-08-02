@@ -77,12 +77,42 @@ h1 {
 
 .wood-contents-lists ol {
     display: inline-block;
+    margin: 0;
 }
 
 .wood-contents-lists img {
     width: 300px;
     height: auto;
+    margin: 0 auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.lists-images-space {
+    width: auto;
+    height: 4px;
+    background-color: #ffa500;
+    margin-top: -4px;
+}
+
+.lists-text {
+    width: auto;
+    height: 50px;
+    text-align: left;
+    font-weight: bold;
+    line-height: 50px;
+    padding-left: 10px;
+    color: #ffa500;
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.lists-text img {
+    width: 50px;
+    float: right;
 }
 .wood-footer {
-    background-color: blue;    
+    height: 54px;
+    background-color: white;    
 }
