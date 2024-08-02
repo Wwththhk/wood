@@ -1,5 +1,14 @@
 body {
-    margin: 0 auto;
+    background-color: #1e1e1e;
+    margin: unset;
+}
+
+h1 {
+    font-family: nomal;
+}
+
+:root {
+    font-family: 'airal';
 }
 
 .wood {
@@ -22,6 +31,30 @@ body {
     width: 960px;
     height: 439px;
 }
+
+.wood-header-contents h1 {
+    color: #ffa500;
+    padding: 60px 0 0 60px;
+    letter-spacing: 7px;
+}
+
+.wood-header-contents h1::after {
+    content: ' ';
+    display: block;
+    background-color: #ffa500;
+    width: 373px;
+    height: 4px;
+    margin: 0;
+    border-radius: 4px;
+}
+
+.wood-header-contents p {
+    color: #ffa500;
+    padding-left: 60px;
+    font-size: 18px;
+    line-height: 160%;
+}
+
 .wood-contents {
     box-shadow: inset 0 0 20px lightgreen;
 }
